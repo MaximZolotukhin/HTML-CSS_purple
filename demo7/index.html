@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <h1>Свяжитесь со мной</h1>
+    <form action="#">
+      <div>
+        <label for="email">E-mail*</label>
+        <input type="email" name="email" id="email" placeholder="Email пользователя" value="" required>
+      </div>
+      <div>
+        <label for="text">Teleram</label>
+        <input type="text" name="telegram" id="telegram" placeholder="Telegram пользователя" value="">
+      </div>
+      <div>
+        <label for="topic">Тема*</label>
+        <select name="topic" id="topic" required>
+          <option value="courses">Приобретиение курсов</option>
+          <option value="feedback">Обратная связь</option>
+        </select>
+      </div>
+      <div>
+        <label for="topic">Комментарии</label>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+      </div>
+
+      <button type="submit">Отправить</button>
+    </form>
+  </main>
+</body>
+
+</html>
