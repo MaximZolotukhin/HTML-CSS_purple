@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+}
+
+#heroButton {
+  background-color: #4262ff;
+  color: #ffffff;
+}
+
+#heroButton:hover {
+  background-color: #122db6;
+}
+
+#heroButton:active {
+  background-color: #071766;
+}
+
+.heroForm input {
+  border-radius: 32px;
+  height: 38px;
+  border: 1px solid #9b99af;
+  padding: 5px 10px;
+}
+
+.heroForm input:focus {
+  background-color: aliceblue;
+}
+
+.heroForm button {
+  height: 48px;
+  border: 1px solid #9b99af;
+  border-radius: 32px;
+  padding: 10px 20px;
+}
+
+.link {
+  color: #4262ff;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #122db6;
+}
+
+h1 {
+  margin: 0 0 17px 0;
+}
+
+h2 {
+  margin: 0 0 19px 0;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  color: #050038;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.heroText {
+  color: #050038;
+  margin: 0 0 55px 0;
+}
+
+.sectionText {
+  color: rgba(5, 0, 56, 0.6);
+  margin-bottom: 40px;
+}
+
+header a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #050038;
+  text-decoration: none;
+}
+
+.heroForm + p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #050038;
+  margin: 8px 0 52px 0;
+}
+
+nav {
+  padding: 33px 55px;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 60px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sectionList {
+  list-style: none;
+}
+
+.sectionList li::marker {
+  content: url('../img/frame.svg');
+}
+
+footer {
+  background-color: #050038;
+  padding: 47px 40px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}

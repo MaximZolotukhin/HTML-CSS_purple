@@ -1,0 +1,53 @@
+body {
+  background-color: lightgrey;
+  color: white;
+  font-family: 'Courier New', Courier, sans-serif;
+  position: relative;
+  min-height: 100vh;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/Site-background-dark.webp');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5; /* ✅ Управляет прозрачностью — от 0 (полностью прозрачно) до 1 (непрозрачно) */
+  z-index: -1; /* Чтобы псевдоэлемент был под содержимым */
+}
+
+.container {
+  width: 75%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: black;
+  padding: 20px;
+  border-radius: 8px;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 10px 0;
+}
+
+header nav {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+header nav li {
+  list-style: none;
+}
+header nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 50px;
+}

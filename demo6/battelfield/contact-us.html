@@ -1,0 +1,52 @@
+<!DOCTYPE html> <!-- Версия html -->
+<html lang="ru"> <!-- Открываем html страницу и говорим что страница на русском языке lang="ru"-->
+
+<head> <!-- Метаданные документа и подключение различных ресурсов -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battlefield</title>
+</head>
+
+<body> <!-- Тело страницы -->
+  <header>
+    <h1>Battlefield - серия игр</h1>
+    <img src="./img/BF2_cover.jpg" alt="обложка игры Battlefield 2">
+
+    <nav>
+      <!-- Меню -->
+      <ul>
+        <li><a href="#">Battlefield 2</a></li>
+        <li><a href="#">Battlefield 3</a></li>
+        <li><a href="#">Battlefield 4</a></li>
+        <li><a href="contact-us.html">Связаться с нами</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <section>
+        <form action="/message" method="get">
+          <label for="name">Имя Пользователя</label>
+          <input type="text" name="name" id="name" placeholder="Введите имя" required>
+          <label for="email">Ваш email:</label>
+          <input type="email" name="email" id="email" placeholder="Введите почту" required>
+          <label for="message">Сообщение</label>
+          <textarea id="message" name="message" rows="5" placeholder="Расскажите, что вы думаете о BF2..."></textarea>
+          <select name="game-name" id="game-name">
+            <option value="Battlefield 2" selected>Battlefield 2</option>
+            <option value="Battlefield 3">Battlefield 3</option>
+            <option value="Battlefield 4">Battlefield 4</option>
+          </select>
+          <button type="submit">Отправить</button>
+        </form>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <div>Сайт был разработан в 2025 году</div>
+  </footer>
+</body>
+
+</html>
